@@ -23,7 +23,6 @@ libc_openbsd_src_files_arm += \
 #
 
 libc_bionic_src_files_arm += \
-    bionic/memchr.c \
     bionic/memrchr.c \
     bionic/strchr.cpp \
     bionic/strnlen.c \
@@ -40,7 +39,6 @@ libc_freebsd_src_files_arm += \
     upstream-freebsd/lib/libc/string/wmemmove.c \
 
 libc_openbsd_src_files_arm += \
-    upstream-openbsd/lib/libc/string/bcopy.c \
     upstream-openbsd/lib/libc/string/stpncpy.c \
     upstream-openbsd/lib/libc/string/strlcat.c \
     upstream-openbsd/lib/libc/string/strlcpy.c \
